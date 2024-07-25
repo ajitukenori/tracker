@@ -1,0 +1,251 @@
+.edit-bg {
+    width: 100%;
+    min-height: calc(100vh - 8rem);
+}
+
+.task {
+    padding: 10%;
+}
+
+.task-edit {
+    width: 100%;
+    height: 100%;
+    background: #ddd;
+    opacity: 0.8;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+}
+
+.edit-delete {
+    width: 85%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.delete-btn {
+    width: 1.8rem;
+    height: 1.8rem;
+    border: solid 2px #8a8a8a;
+    border-radius: 50%;
+    background-color: #8a8a8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-btn img {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(139deg) brightness(103%) contrast(101%);
+    width: 80%;
+}
+
+.img-color {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    padding-bottom: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.color-set {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.color-img {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.color-img img {
+    width: 60%;
+}
+
+.color-in {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-re-name {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.name-info {
+    width: 80%;
+    height: 60%;
+    background: #fff;
+    border: solid 1.5px #8a8a8a;
+}
+
+.name-info input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #21468e;
+    font-family: "Quicksand", sans-serif;
+}
+
+.task-blank {
+    width: 100%;
+    height: 100%;
+    border: dashed 2px #ddd;
+    opacity: 0.8;
+    border-radius: 10%;
+}
+
+.confirmation {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-info {
+    width: 30%;
+    height: 20%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Quicksand", sans-serif;
+    opacity: 0.8;
+}
+
+.con-back {
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.con-back-img {
+    width: 1.8rem;
+    height: 1.8rem;
+    border: solid 2px #8a8a8a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-back-img img {
+    filter: invert(57%) sepia(2%) saturate(1%) hue-rotate(18deg) brightness(96%) contrast(91%);
+}
+
+.con-text {
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    color: #21468e;
+}
+
+.con-text-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con-btn {
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.con-yes {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con-yes button,
+.con-no button {
+    width: 40%;
+    height: 30%;
+    background: linear-gradient(#abaaaa, #888888);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.con-no {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desision {
+    width: 100%;
+    height: 6rem;
+    padding-bottom: 3rem;
+}
+
+.dss-btn {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dss-btn button {
+    width: 10%;
+    height: 100%;
+    background: linear-gradient(#21468e, #162f60);
+    color: #fff;
+    border-radius: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .dss-btn button{
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(#21468e, #162f60);
+        color: #fff;
+        border-radius: 10px;
+        font-family: "Quicksand", sans-serif;
+    }
+    .grid {
+        width: 100%;
+        height: calc(100vh - 198px);
+        padding-top: 2%;
+        display: grid;
+        grid-template-columns: repeat(1, 20rem);
+        grid-auto-rows: 20rem;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+}

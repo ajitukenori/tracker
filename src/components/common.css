@@ -1,0 +1,160 @@
+.whole {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.whole::before {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    background: url(/image/common/bg-.jpg) repeat-y top center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: -6;
+}
+
+.whole:after {
+    content: ' ';
+    background-color: #21468e;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -5;
+}
+
+header {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.info {
+    width: 100%;
+    height: 128px;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    background: url(/image/common/header-bg.png) repeat-x top center;
+    background-size: contain;
+    z-index: 5;
+    opacity: 1;
+}
+
+.hed-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-info {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn {
+    width: 40%;
+}
+
+.nav-btn img {
+    width: 100%;
+}
+
+.nav-btn p {
+    color: #fff;
+    text-align: center;
+
+    font-family: "Quicksand", sans-serif;
+}
+
+.title {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tl-img {
+    width: 10%;
+}
+
+.tl-img img {
+    width: 100%;
+}
+
+.tl-text {
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+.tl-right {
+    transform: scaleX(-1);
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vh - 8rem);
+    background: url(/image/common/coment-bg-min.png) no-repeat bottom right;
+    background-size: 60%;
+}
+
+@media screen and (min-width: 450px) {
+    .grid {
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 23rem);
+    grid-auto-rows: 23rem;
+    justify-content: center;
+}
+}
+
+
+@media screen and (max-width: 450px){
+    .info{
+        width: 100%;
+        height: 102px;
+    }
+    .nav-info {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tl-text {
+        width: 70%;
+        text-align: center;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: "Quicksand", sans-serif;
+    }
+    .title {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

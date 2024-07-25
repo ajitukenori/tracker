@@ -14,6 +14,8 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource-variable/quicksand": "^5.0.18",
+    "@fontsource/fredericka-the-great": "^5.0.20",
     "autoprefixer": "^10.4.19",
     "gatsby": "^5.13.5",
     "gatsby-plugin-postcss": "^6.13.1",
