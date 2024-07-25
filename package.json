@@ -12,7 +12,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "re-build": "gatsby clean && gatsby build"
+    "re-build": "gatsby clean && npm run env && gatsby build",
+    "env": "echo 'GATSBY_APP_API_BASE_URL=https://api.todo.framework-cat.jp' > .env.production"
   },
   "dependencies": {
     "@fontsource-variable/quicksand": "^5.0.18",
