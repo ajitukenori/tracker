@@ -3,7 +3,7 @@ import '../components/common.css';
 import '../components/create.css';
 
 import BaseLayout from "../components/Layout/Base"
-import Addparts from "../components/Parts/add";
+import Addparts from "../components/Parts/Add";
 import api from "../utils/api"
 import { navigate } from "gatsby";
 

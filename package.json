@@ -11,7 +11,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "re-build": "gatsby clean && gatsby build"
   },
   "dependencies": {
     "@fontsource-variable/quicksand": "^5.0.18",
