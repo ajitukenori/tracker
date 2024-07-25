@@ -31,13 +31,13 @@ const Addparts = ({ index, handleChange, tracker }) => {
                         </div>
                         <div className="color">
                             <div className="color-name">
-                                <div className="icon color-icon">
+                                <div className="color-icon">
                                     <img src="/image/color-icon/palette-solid.svg" alt="" />
                                 </div>
-                                <div className="icon-text color-text">
+                                <div className="color-text">
                                     <span>カラー</span>
                                 </div>
-                            </div>
+                            </div> 
                             <div className="color-change">
                                 <label className="color-set" htmlFor="blue">
                                     <div className="color-in">
