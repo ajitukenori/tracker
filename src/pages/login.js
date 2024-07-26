@@ -17,6 +17,7 @@ const LoginPage = () => {
     event.preventDefault()
     await handleLogin(email, password)
   }
+
   return (
     <>
       <main className="main">
@@ -61,12 +62,11 @@ const LoginPage = () => {
                   <div className="click-btn">
                     <button className="c-info">
                       <div className="c-img">
-                        <img src={loginbtn} alt="" />
+                        <img src={loginbtn} alt="" className="c-img-img"/>
                       </div>
                     </button>
                   </div>
                 </div>
-
               </form>
             </div>
           </div>
