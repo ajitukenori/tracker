@@ -195,7 +195,7 @@
 
 @media screen and (max-width: 450px) {
     .title{
-        width: 70%;
+        width: 80%;
         height: 5rem;
         font-family: "Fredericka the Great", system-ui;
         font-style: normal;
@@ -203,13 +203,21 @@
         color: #fff;
         font-size: 1.5rem; 
     }
+    .log-info{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .user {
         width: 100%;
-        height: 21%;
+        height: 25%;
         padding-top: 10%;
     }
     .user-info {
-        width: 35%;
+        width: 30%;
         height: 100%;
         margin: auto;
         display: flex;
@@ -217,19 +225,38 @@
         justify-content: flex-end;
         border-bottom: dashed 1px #21468e;
     }
+    .user-icon {
+        width: 1.3rem;
+        height: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px #21468e;
+        border-radius: 50%;
+        z-index: 5;
+    }
     .user-in {
         width: 76%;
     }
     .passward {
         width: 100%;
-        height: 10%;
+        height: 15%;
     }
     .pass-info {
-        width: 35%;
+        width: 30%;
         height: 100%;
         padding-top: 3%;
         margin: auto;
         border-bottom: dashed 1px #21468e;
+    }
+    .pass-icon{
+        width: 1.3rem;
+        height: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px #21468e;
+        border-radius: 50%;
     }
     .pass-in {
         width: 85%;
