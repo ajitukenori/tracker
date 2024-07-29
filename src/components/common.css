@@ -166,13 +166,15 @@ li {
         min-height: calc(100lvh - 98px);
         background: url(/image/common/coment-bg-min.png) no-repeat bottom right;
         background-size: 80%;
+        padding-right: 15px;
     }
     
     .grid {
         width: 100%;
-        height: calc(100lvh - 98px);
+        height: calc(100lvh - 240px);
         padding-top: 2%;
         display: grid;
+        padding-bottom: 10rem;
         grid-template-columns: repeat(2, 12rem);
         grid-auto-rows: 12rem;
         justify-content: center;
