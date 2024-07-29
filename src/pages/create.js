@@ -21,6 +21,7 @@ const CreateNewPage = () => {
         await api.post("/tracker", {
             'trackers': trackers
         })
+        navigate('/')
     }
 
     const handleChange = (index, key, value) => {
