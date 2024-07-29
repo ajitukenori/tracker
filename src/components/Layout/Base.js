@@ -1,6 +1,9 @@
 import React from "react";
 import { navigate } from "gatsby";
 
+import '../components/common.css';
+import '../components/home.css';
+
 const BaseLayout = ({ children }) => (
     <>
         <div className="whole">

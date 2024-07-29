@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react"
-import '../components/common.css';
-import '../components/home.css';
 
 import { navigate } from "gatsby"
 import BaseLayout from "../components/Layout/Base"
