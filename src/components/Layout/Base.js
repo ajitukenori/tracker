@@ -3,6 +3,8 @@ import { navigate } from "gatsby";
 
 import '../common.css';
 import '../home.css';
+import '../edit.css';
+import '../create.css';
 
 const BaseLayout = ({ children }) => (
     <>
