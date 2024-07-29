@@ -239,6 +239,25 @@
     width: calc(100vw + 15px);
     min-height: calc(100vh - 102px);
     }
+    .delete-btn {
+        width: 1.5rem;
+        height: 1.5rem;
+        border: solid 2px #8a8a8a;
+        border-radius: 50%;
+        background-color: #8a8a8a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-color {
+        width: 80%;
+        height: 60%;
+        margin: auto;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
     .dss-btn button{
         width: 50%;
         height: 100%;
@@ -246,6 +265,12 @@
         color: #fff;
         border-radius: 10px;
         font-family: "Quicksand", sans-serif;
+    }
+    .name-info {
+        width: 80%;
+        height: 70%;
+        background: #fff;
+        border: solid 1.5px #8a8a8a;
     }
     .desision{
         width: 100%;
