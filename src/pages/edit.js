@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import '../components/common.css';
-import '../components/edit.css';
+
 
 
 import BaseLayout from '../components/Layout/Base';
