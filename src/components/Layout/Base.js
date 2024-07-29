@@ -1,8 +1,8 @@
 import React from "react";
 import { navigate } from "gatsby";
 
-import '../components/common.css';
-import '../components/home.css';
+import '../common.css';
+import '../home.css';
 
 const BaseLayout = ({ children }) => (
     <>
