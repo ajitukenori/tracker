@@ -18,7 +18,7 @@ const IndexPage = () => {
   }, []);
 
   const taskList = async (index) => {
-    const reponce =  await api.post(`/tracker/${index}/check`)
+    const reponce = await api.post(`/tracker/${index}/check`)
     console.log(reponce)
     setTrackers(reponce.data.trackers)
   }
@@ -27,22 +27,22 @@ const IndexPage = () => {
     <BaseLayout>
       <main>
         <div className="bg">
-          <div className="grid">
-            {trackers.map((tracker, index) => (
-              <ItemParts key={index} tracker={tracker} taskList={taskList}/>
-            ))}
-            <div className="task">
-              <button className="task-plus" onClick={() => { navigate("/create") }}>
-                <div className="plus-btn">
-                  <img src="/image/setting/new-btn.png" alt="" />
-                  <p>NEW</p>
-                </div>
-              </button>
+            <div className="grid">
+              {trackers.map((tracker, index) => (
+                <ItemParts key={index} tracker={tracker} taskList={taskList} />
+              ))}
+              <div className="task">
+                <button className="task-plus" onClick={() => { navigate("/create") }}>
+                  <div className="plus-btn">
+                    <img src="/image/setting/new-btn.png" alt="" />
+                    <p>NEW</p>
+                  </div>
+                </button>
+              </div>
+              <div className="task">
+                <div className="task-blank"></div>
+              </div>
             </div>
-            <div className="task">
-              <div className="task-blank"></div>
-            </div>
-          </div>
         </div>
       </main>
     </BaseLayout>
