@@ -134,7 +134,8 @@
 .color-change {
     width: 40%;
     height: 100%;
-    padding: 3% 5%;
+    padding: 2% 5%;
+    gap: 3px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
