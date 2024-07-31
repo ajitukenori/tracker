@@ -1,6 +1,7 @@
 .edit-bg {
     width: calc(100vw + 15px);
     min-height: calc(100vh - 8rem);
+    position: relative;
 }
 
 .task {
@@ -203,6 +204,9 @@
 }
 
 .desision {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
     height: 6rem;
     padding-bottom: 3rem;
