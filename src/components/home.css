@@ -1,3 +1,8 @@
+@media screen and (min-width:450px) {
+    .sp{
+        display: none;
+    }
+}
 .task {
     padding: 10%;
 }
@@ -126,4 +131,8 @@
     text-align: center;
     font-family: "Quicksand", sans-serif;
 }
-
+@media screen and (max-width: 450px) {
+    .pc{
+        display: none;
+    }
+}
