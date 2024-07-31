@@ -13,11 +13,12 @@
     align-items: center;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
 }
-
 .plus-btn {
     width: 20%;
 }
-
+.plus-btn:hover{
+    width: 20%;
+}
 .plus-btn img {
     width: 100%;
 }
@@ -86,7 +87,10 @@
     align-items: center;
     justify-content: center;
 }
-
+.task-clear img:hover{
+    width: 70%;
+    filter:  invert(0%) sepia(100%) saturate(0%) hue-rotate(21deg) brightness(97%) contrast(103%);
+}
 .task-clear img {
     filter: invert(20%) sepia(16%) saturate(13%) hue-rotate(27deg) brightness(90%) contrast(83%);
     width: 70%;

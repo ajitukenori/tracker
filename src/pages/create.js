@@ -42,7 +42,7 @@ const CreateNewPage = () => {
                         ))}
                         <div className="plus-plus">
                             <div className="p-p-info">
-                                <button className="p-btn" onClick={addTraker}>
+                                <button type="button" className="p-btn" onClick={addTraker}>
                                     <div className="p-btn-img">
                                         <img src="/image/setting/new-btn-o.png" alt="" />
                                     </div>

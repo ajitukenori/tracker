@@ -69,9 +69,12 @@ li {
 }
 
 .nav-btn {
-    width: 40%;
+    width: 35%;
 }
-
+.nav-btn:hover{
+    width: 35%;
+    opacity: 0.8;
+}
 .nav-btn img {
     width: 100%;
 }
