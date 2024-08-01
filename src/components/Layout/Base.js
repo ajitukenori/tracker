@@ -23,9 +23,9 @@ const BaseLayout = ({ children }) => (
                                 <div className="tl-img ">
                                     <img src="/image/common/flower-icon.png" alt="" />
                                 </div>
-                                <div className="tl-text">
+                                <button className="tl-text" onClick={() => {navigate('/')}}>
                                     <span>Life Tracker</span>
-                                </div>
+                                </button>
                                 <div className="tl-img">
                                     <img src="/image/common/flower-icon.png" alt="" className="tl-right" />
                                 </div>
