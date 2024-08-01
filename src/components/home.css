@@ -7,6 +7,18 @@
     opacity: 0;
 }
 
+.grid {
+    width: 100%;
+    height: calc(100vh - 224px);
+    padding-top: 2%;
+    padding-bottom: 35rem;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-auto-rows: 360px;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
 .task {
     padding: 10%;
 }

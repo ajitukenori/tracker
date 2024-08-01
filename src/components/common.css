@@ -156,7 +156,7 @@ li {
     width: 100%;
 }
 
-
+/*
 .grid {
     width: 100%;
     height: calc(100vh - 224px);
@@ -168,7 +168,7 @@ li {
     justify-content: center;
     overflow-y: scroll;
 }
-
+*/
 
 
 @media screen and (max-width: 450px) {
