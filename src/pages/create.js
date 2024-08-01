@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import '../components/common.css';
 import '../components/create.css';
+import subTitle from "../images/home/title/add-track.png"
 
 import BaseLayout from "../components/Layout/Base"
 import Addparts from "../components/Parts/Add"
@@ -35,6 +36,9 @@ const CreateNewPage = () => {
     return (
         <BaseLayout>
             <main>
+                <div className="subtitle">
+                    <img src={subTitle} />
+                </div>
                 <form onSubmit={submit}>
                     <div className="add-info">
                         {trackers.map((tracker, index) => (

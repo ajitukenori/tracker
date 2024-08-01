@@ -145,10 +145,20 @@ li {
     background: linear-gradient(rgba(255, 255, 255, 0),#21458e);
     z-index: 0;
 }
+.subtitle{
+    width: 10%;
+    margin: 0 auto;
+    height: 96px;
+    padding-top: 2em;
+}
+.subtitle img{
+    width: 100%;
+}
+
 
 .grid {
     width: 100%;
-    height: calc(100vh - 128px);
+    height: calc(100vh - 224px);
     padding-top: 2%;
     padding-bottom: 35rem;
     display: grid;
@@ -210,7 +220,7 @@ li {
     .bg::before{
         content: "";
         width: calc(100% + 15px);
-        height: 12rem;
+        height: 192px;
         background: url(/image/common/coment-bg-min.png) no-repeat bottom right;
         background-size: 80%;
         padding-right: 15px;  
@@ -222,7 +232,7 @@ li {
     .bg::after{
         content: "";
         width: 100%;
-        height: 8rem;
+        height: 128px;
         position: absolute;
         bottom: 0;
         left: 0;

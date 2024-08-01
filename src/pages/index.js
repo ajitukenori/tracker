@@ -4,6 +4,7 @@ import { navigate } from "gatsby"
 import BaseLayout from "../components/Layout/Base"
 import api from "../utils/api"
 import ItemParts from "../components/Parts/Item";
+import subTitle from "../images/home/title/track.png"
 
 const IndexPage = () => {
   const [trackers, setTrackers] = useState([])
@@ -27,10 +28,10 @@ const IndexPage = () => {
     <BaseLayout>
       <main>
         <div className="bg">
+          <div className="subtitle">
+            <img src={subTitle} />
+          </div>
             <div className="grid">
-              {trackers.map((tracker, index) => (
-                <ItemParts key={index} tracker={tracker} taskList={taskList} />
-              ))}
               <div className="task">
                 <button className="task-plus" onClick={() => { navigate("/create") }}>
                   <div className="plus-btn">
@@ -39,6 +40,9 @@ const IndexPage = () => {
                   </div>
                 </button>
               </div>
+              {trackers.map((tracker, index) => (
+                <ItemParts key={index} tracker={tracker} taskList={taskList} />
+              ))}
               <div className="task">
                 <div className="task-blank"></div>
               </div>

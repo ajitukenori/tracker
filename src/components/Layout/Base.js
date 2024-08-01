@@ -20,7 +20,7 @@ const BaseLayout = ({ children }) => (
                                 </button>
                             </li>
                             <li className="title">
-                                <div className="tl-img">
+                                <div className="tl-img ">
                                     <img src="/image/common/flower-icon.png" alt="" />
                                 </div>
                                 <div className="tl-text">

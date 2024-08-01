@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import '../components/common.css';
+import subTitle from "../images/home/title/edit.png";
 
 
 
@@ -48,6 +49,9 @@ const EditPage = () => {
     return (
         <BaseLayout>
             <main>
+                <div className="subtitle">
+                    <img src={subTitle}/>
+                </div>
                 <form onSubmit={changeSubmit}>
                     <div className="edit-bg">
                         <div className="grid">
