@@ -161,7 +161,7 @@
     .grid {
         width: 100%;
         height: calc(100lvh - 178px);
-        padding-top: 2%;
+        margin-top: 2%;
         display: grid;
         padding-bottom: 10rem;
         grid-template-columns: repeat(2, 12rem);
