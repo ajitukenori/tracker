@@ -54,7 +54,7 @@ const EditPage = () => {
                 </div>
                 <form onSubmit={changeSubmit}>
                     <div className="edit-bg">
-                        <div className="grid">
+                        <div className="edit-grid">
                             {trackers.map((tracker, index) => (
                                 <EditParts
                                     key={index}
