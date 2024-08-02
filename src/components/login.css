@@ -193,6 +193,11 @@
 }
 
 @media screen and (max-width: 450px) {
+    .main{
+        width: 100%;
+        min-height: 100svh;
+        overflow: hidden;
+    }
     .title{
         width: 80%;
         height: 7rem;
@@ -212,7 +217,7 @@
         width: 100%;
         position: absolute;
         top: 0;
-        left: 50%;
+        left: 52%;
         transform: translateX(-50%);
     }
    

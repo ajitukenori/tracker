@@ -189,7 +189,7 @@ li {
         width: 60%;
         text-align: center;
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-family: "Kiwi Maru", sans-serif;
     }
 
@@ -210,12 +210,12 @@ li {
     .nav-btn p{
         color: #fff;
         text-align: center;
-        font-size: .8rem;
+        font-size: .7rem;
         font-family: "Kiwi Maru", sans-serif;
     }
     .bg {
         width: calc(100% + 15px);
-        min-height: calc(100lvh - 98px);
+        min-height: calc(100lvh - 178px);
         position: relative;
     }
     .bg::before{
@@ -240,6 +240,16 @@ li {
         background: linear-gradient(rgba(255, 255, 255, 0),rgb(33, 69, 142));
         z-index: 0;
     }
+    .subtitle{
+        width: 50%;
+        margin: 0 auto;
+        height: 80px;
+        padding-top: 1em;
+    }
+    .subtitle img{
+        width: 100%;
+    }
+    /*
     .grid {
         width: 100%;
         height: calc(100lvh - 98px);
@@ -251,5 +261,5 @@ li {
         justify-content: center;
         overflow-y: scroll;
     }
-
+*/
 }

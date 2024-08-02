@@ -250,7 +250,7 @@
 @media screen and (max-width: 450px) {
     .add-info{
         width: 100%;
-        min-height: calc(100vh - 198px);
+        min-height: calc(100vh - 178px);
     }
     .plus-info {
         width: 100%;
@@ -287,7 +287,7 @@
     }
 
     .icon {
-        width: 50%;
+        width: 40%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -296,11 +296,11 @@
 
     .icon img {
         filter: invert(21%) sepia(48%) saturate(2242%) hue-rotate(201deg) brightness(94%) contrast(89%);
-        width: 30%;
+        width: 40%;
     }
 
     .icon-text {
-        width: 50%;
+        width: 60%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -308,16 +308,33 @@
         color: #21468e;
     }
 
-    .color-icon img{
-        filter: invert(21%) sepia(48%) saturate(2242%) hue-rotate(201deg) brightness(94%) contrast(89%);
-        width: 30%; 
-    }
     .color-name {
         display: flex;
         width: 25%;
         height: 100%;
         align-items: flex-start;
         padding-right: 5px;
+    }
+    .color-icon{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-top: 1.2rem;
+    }
+    .color-icon img{
+        filter: invert(21%) sepia(48%) saturate(2242%) hue-rotate(201deg) brightness(94%) contrast(89%);
+        width: 40%; 
+    }
+    .color-text{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: #21468e;
+        padding-top: 1rem;
     }
 
     .color-change {
