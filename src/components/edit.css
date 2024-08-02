@@ -1,23 +1,26 @@
-.edit-btn{
+.edit-btn {
     opacity: 0;
 }
+
 .edit-bg {
     width: calc(100vw + 15px);
     min-height: calc(100vh - 224px);
     position: relative;
 }
+
 @media screen and (min-width: 450px) {
     .edit-grid {
-    width: 100%;
-    height: 100%;
-    padding-top: 2%;
-    padding-bottom: 32px;
-    display: grid;
-    grid-template-columns: repeat(3, 360px);
-    grid-auto-rows: 360px;
-    justify-content: center;
-    overflow-y: scroll;
-}
+        width: 100%;
+        height: 100%;
+        max-height: calc(100vh - 200px);
+        margin-top: 2%;
+        padding-bottom: 32px;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        grid-auto-rows: 360px;
+        justify-content: center;
+        overflow-y: scroll;
+    }
 }
 
 
@@ -33,7 +36,7 @@
     opacity: 0.7;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10%;
-    
+
 }
 
 .edit-delete {
@@ -45,7 +48,7 @@
 }
 
 .delete-btn {
-   position: absolute;
+    position: absolute;
     top: 9%;
     right: 8%;
     width: 35px;
@@ -58,6 +61,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .delete-btn:hover {
     width: 35px;
     height: 35px;
@@ -68,9 +72,11 @@
     justify-content: center;
     align-items: center;
 }
-.delete-btn:hover img{
+
+.delete-btn:hover img {
     width: 80%;
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(263deg) brightness(108%) contrast(108%);;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(263deg) brightness(108%) contrast(108%);
+    ;
 }
 
 .delete-btn img {
@@ -240,7 +246,7 @@
 }
 
 .desision {
-   /* position: fixed;
+    /* position: fixed;
     bottom: 0;
     left: 0;*/
     width: 100%;
@@ -266,7 +272,8 @@
     border-radius: 10px;
     font-family: "Kiwi Maru", sans-serif;
 }
-.dss-btn button:hover{
+
+.dss-btn button:hover {
     width: 10%;
     height: 100%;
     background: linear-gradient(#162f60, #0b1730);
@@ -277,40 +284,44 @@
 
 
 @media screen and (max-width: 450px) {
-    .whole{
+    .whole {
         width: 100%;
         height: 100%;
         position: relative;
     }
-    .edit-bg{
-    width: calc(100vw + 15px);
-    min-height: calc(100vh - 178px);
-    padding-right: 15px;
+
+    .edit-bg {
+        width: calc(100vw + 15px);
+        min-height: calc(100vh - 178px);
+        padding-right: 15px;
     }
-    .edit-grid{
-            width: 100%;
-            height: 100%;
-            padding-top: 2%;
-            display: grid;
-            grid-template-columns: repeat(2, 12rem);
-            grid-auto-rows: 12rem;
-            justify-content: center;
-            overflow-y: scroll;
+
+    .edit-grid {
+        width: 100%;
+        height: 100%;
+        padding-top: 2%;
+        display: grid;
+        grid-template-columns: repeat(2, 12rem);
+        grid-auto-rows: 12rem;
+        justify-content: center;
+        overflow-y: scroll;
     }
+
     .delete-btn {
         position: absolute;
-         top: 7%;
-         right: 6%;
-         width: 25px;
-         height: 25px;
-         border: solid 2px #c9cfd5;
-         border-radius: 50%;
-         background-color: #c9cfd5;
-         opacity: .8;
-         display: flex;
-         justify-content: center;
-         align-items: center;
+        top: 7%;
+        right: 6%;
+        width: 25px;
+        height: 25px;
+        border: solid 2px #c9cfd5;
+        border-radius: 50%;
+        background-color: #c9cfd5;
+        opacity: .8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
     .img-color {
         width: 80%;
         height: 60%;
@@ -320,7 +331,8 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
-    .dss-btn button{
+
+    .dss-btn button {
         width: 50%;
         height: 100%;
         background: linear-gradient(#21468e, #162f60);
@@ -328,13 +340,15 @@
         border-radius: 10px;
         font-family: "Kiwi Maru", sans-serif;
     }
+
     .name-info {
         width: 80%;
         height: 70%;
         background: #fff;
         border: solid 1.5px #8a8a8a;
     }
-    .desision{
+
+    .desision {
         width: 100%;
         height: 64px;
         padding-bottom: 1em;

@@ -1,5 +1,4 @@
 import React from 'react';
-import api from "../../utils/api"
 
 const ItemParts = ({ tracker, taskList }) => {
 
