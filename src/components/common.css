@@ -147,10 +147,10 @@ li {
     z-index: 0;
 }
 .subtitle{
-    width: 10%;
+    width: 20%;
     margin: 0 auto;
     height: 96px;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 .subtitle img{
     width: 100%;
