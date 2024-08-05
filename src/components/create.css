@@ -250,7 +250,7 @@
 @media screen and (max-width: 450px) {
     .add-info{
         width: 100%;
-        min-height: calc(100vh - 178px);
+        min-height: calc(100lvh - 178px);
     }
     .plus-info {
         width: 100%;

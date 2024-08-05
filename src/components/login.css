@@ -38,6 +38,7 @@
 
 .login-bg {
     width: 100%;
+    min-height: 392px;
     height: 35%;
     position: relative;
 }
@@ -209,6 +210,7 @@
     }
      .login-bg {
         width: 100%;
+        min-height: 266px;
         height: 40%;
         position: relative;
     }
@@ -217,7 +219,7 @@
         width: 100%;
         position: absolute;
         top: 0;
-        left: 52%;
+        left: 50%;
         transform: translateX(-50%);
     }
    

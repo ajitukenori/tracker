@@ -9,7 +9,7 @@
 
 .grid {
     width: 100%;
-    height: calc(100vh - 224px);
+    height: calc(100lvh - 224px);
     padding-top: 2%;
     padding-bottom: 35rem;
     display: grid;
