@@ -136,6 +136,19 @@ li {
     left: 0;
     z-index: 2;
 }
+@media screen and (min-width: 2200px) {
+    .bg::before{
+        content: "";
+        width: calc(100% + 15px);
+        height:500px;
+        background: url(/image/common/coment-bg-min.png) no-repeat bottom right;
+        background-size: 40%;
+        padding-right: 15px;  
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
 .bg::after{
     content: "";
     width: 100%;
